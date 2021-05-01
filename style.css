@@ -13,6 +13,7 @@
 font-size: 24px;
 }
 
+
 a{
   color:black;
 /*  border-radius: 35px;*/
@@ -28,6 +29,15 @@ a:hover{
 a:after {
     padding-left:2px; /* Add a little space between text and arrow */
     content: "\2192"; /* Unicode hex for &raquo; */
+}
+
+a.no-style{
+  text-decoration:none;
+  background-color:white;
+}
+
+a.no-style:after{
+  content:none;
 }
 
 body{
@@ -72,6 +82,8 @@ hr{
   border-bottom: 1px dashed #ccc;
   background: #999;
 }*/
+
+
 
 header{
   word-spacing: 2em;
