@@ -11,6 +11,7 @@
 }
 */
 
+
 /*all*/
 
 :root {
@@ -30,6 +31,8 @@ body, html {
   line-height:150%;
 }
 
+
+
 /*links*/
 a{
   color:black;
@@ -40,7 +43,6 @@ a{
 
 a:hover{
   background-color:red;
-
 }
 
 a:after {
@@ -56,6 +58,9 @@ a.no-style{
 a.no-style:after{
   content:none;
 }
+
+
+
 
 /*body*/
 body{
@@ -121,5 +126,7 @@ hr{
 /*to - do
 
 explore hover images
+make images float into text / next to each other etc through span or figure
 add grid
+add search bar?
 add line as border instead of hr */
