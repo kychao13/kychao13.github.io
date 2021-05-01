@@ -38,7 +38,7 @@ margin-right: 3em;
 margin-left: 3em;
 margin-top: 3em;
 margin-bottom: 3em;
-cursor: url('images/pencil.png'), default;
+cursor: "\2710"; 
 }
 
 body::after{
