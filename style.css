@@ -78,8 +78,13 @@ header{
 }
 
 *{
-  line-height:150%;
   font-weight:normal;
+  line-height:150%;
+
+}
+
+small{
+  font-size:0.6em;
 }
 
 
