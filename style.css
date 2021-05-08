@@ -65,8 +65,7 @@ a.no-style:after{
 /*body*/
 body{
 display: grid;
-grid-template-columns: minmax(min-content, 30%) 1fr;
-overflow: hidden;
+grid-template-columns: minmax(350px, 30%) 1fr;
 height: 100vh;
 font-family: 'DM Sans', sans-serif;
 /*font-family: 'Ortica-Light', serif;*/
@@ -137,7 +136,7 @@ footer {
 }
 
 /*breakpoint*/
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   body {
     grid-template-columns: 1fr;
   }
