@@ -56,7 +56,7 @@ body::after {
 }
 
 header {
-  padding: 15em 0em 0em 2em;
+  padding: 15em 5em 0em 2em;
   border-right: 1px dashed #ccc;
 }
 
@@ -103,8 +103,15 @@ small {
   font-size: 0.8em;
 }
 
+
+
+
 h1 {
   font-size: 2em;
+}
+
+h1.anchor{
+  bottom:2em;
 }
 
 section {
