@@ -62,6 +62,8 @@ header {
 
 main {
   overflow-y: scroll;
+  display: grid;
+  /*grid-template-columns: minmax(min-content, 30%) 1fr;*/
 }
 
 /*links*/
@@ -126,8 +128,21 @@ section:last-of-type {
 
 /*images*/
 img {
-  max-width: 25%;
+  /*max-width: 100%;*/
+  max-width:25%
 }
+
+/*
+figure {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+figure img:first-of-type{
+  grid-column: 1/5;
+}
+*/
 
 /*footer
 footer {
@@ -138,7 +153,7 @@ footer {
 */
 /*breakpoint*/
 @media (max-width: 788px) {
-  body {
+  body,main {
     grid-template-columns: 1fr;
   }
 
