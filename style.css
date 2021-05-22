@@ -153,11 +153,12 @@ footer {
 */
 /*breakpoint*/
 @media (max-width: 788px) {
-  body,main {
+  body {
     grid-template-columns: 1fr;
   }
 
   header {
+    font-size:0.65em;
     border-right: 0;
     padding:2em 0em 0em 2em;
     border-bottom: 1px dashed #ccc;
@@ -165,6 +166,10 @@ footer {
 
   nav {
     position: inherit;
+  }
+
+  img{
+    max-width:75%;
   }
 }
 
